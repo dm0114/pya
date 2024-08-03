@@ -1,11 +1,11 @@
-import { RouterProvider } from "./providers";
+import { RouterProvider } from './providers';
 
 function App() {
-  return (
-    <>
-      <RouterProvider />
-    </>
-  );
+	return (
+		<>
+			<RouterProvider />
+		</>
+	);
 }
 
 export default App;

@@ -5,6 +5,6 @@ pre-commit:
       glob: "*.{ts,tsx}"
       run: pnpm type-check
     check:
-      glob: "*.{ts,tsx,json}"
+      glob: "*.{ts,tsx}"
       run: pnpx @biomejs/biome check --write {staged_files}
     

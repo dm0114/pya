@@ -57,8 +57,6 @@
 	},
 	"javascript": {
 		"formatter": {
-			"quoteStyle": "single",
-			"jsxQuoteStyle": "single",
 			"quoteProperties": "asNeeded",
 			"bracketSpacing": true
 		}
