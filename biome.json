@@ -1,0 +1,65 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
+	"organizeImports": {
+		"enabled": true
+	},
+	"formatter": {
+		"enabled": true,
+		"formatWithErrors": true
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true,
+			"complexity": {
+				"useSimplifiedLogicExpression": "error",
+				"noExcessiveCognitiveComplexity": "warn",
+				"noVoid": "warn"
+			},
+			"correctness": {
+				"noUndeclaredVariables": "error",
+				"noUnusedImports": "error",
+				"noUnusedPrivateClassMembers": "error",
+				"noUnusedVariables": "error"
+			},
+			"nursery": {
+				"noDoneCallback": "warn",
+				"noEmptyBlock": "warn",
+				"noYodaExpression": "warn",
+				"useConsistentBuiltinInstantiation": "warn",
+				"noConsole": "error",
+				"noDuplicateAtImportRules": "error",
+				"noDuplicateJsonKeys": "error",
+				"noEvolvingTypes": "error",
+				"noInvalidPositionAtImportRule": "error",
+				"noMisplacedAssertion": "error",
+				"noUnusedFunctionParameters": "error",
+				"useErrorMessage": "error",
+				"useImportRestrictions": "error",
+				"useThrowNewError": "error"
+			},
+			"style": {
+				"noImplicitBoolean": "error",
+				"useCollapsedElseIf": "warn",
+				"useConsistentArrayType": "warn",
+				"useFilenamingConvention": {
+					"level": "error",
+					"options": {
+						"filenameCases": ["kebab-case", "export"]
+					}
+				}
+			},
+			"suspicious": {
+				"noEmptyBlockStatements": "warn"
+			}
+		}
+	},
+	"javascript": {
+		"formatter": {
+			"quoteStyle": "single",
+			"jsxQuoteStyle": "single",
+			"quoteProperties": "asNeeded",
+			"bracketSpacing": true
+		}
+	}
+}
